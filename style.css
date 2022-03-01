@@ -177,3 +177,11 @@ button {
 }
 
 /* Footer */
+.footer {
+  background-color: var(--dark-bg-color);
+  color: var(--hero-small-txt-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
