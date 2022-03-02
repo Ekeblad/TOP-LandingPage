@@ -62,11 +62,16 @@ button {
   display: flex;
   justify-content: space-between;
   background-color: var(--dark-bg-color);
-  padding: 80px 80px;
+  padding: 80px 80px 100px;
   gap: 20px;
+  flex-basis: 0;
+}
+
+.left-content-1 {
+  width: 500px;
 }
 .img {
-  width: 400px;
+  width: 500px;
   height: 200px;
   background-color: var(--hero-small-txt-color);
   text-align: center;
@@ -85,16 +90,13 @@ button {
   font-size: 18px;
 }
 
-.signup-1 {
-}
-
-/* Second Section */
+/* Second Section - Card Section*/
 .content-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 80px;
+  padding: 20px 120px;
 }
 
 .information-header {
@@ -106,7 +108,7 @@ button {
 
 .card-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   gap: 16px;
   padding: 20px 80px;
 }
@@ -129,7 +131,8 @@ button {
   margin: 12px;
 }
 
-.sub-text {
+.subtext {
+  width: 150px;
 }
 
 /* Third Section - Quote */
@@ -163,7 +166,7 @@ button {
   padding: 32px 48px;
   border-radius: 1rem;
 }
-.left-content-1 {
+.left-content-2 {
   padding-left: 20px;
 }
 
