@@ -39,6 +39,7 @@ button {
 /*div {
   border: 1px solid red;
 }*/
+
 /* Header Section */
 
 .header {
@@ -56,12 +57,12 @@ button {
   font-weight: 800;
 }
 
-/* First Section */
+/* First Section Hero */
 .content-1 {
   display: flex;
   justify-content: space-between;
   background-color: var(--dark-bg-color);
-  padding: 48px 80px;
+  padding: 80px 80px;
   gap: 20px;
 }
 .img {
@@ -122,8 +123,8 @@ button {
   border: #1f2937;
   border-style: solid;
   border-radius: 1rem;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   justify-content: center;
   margin: 12px;
 }
