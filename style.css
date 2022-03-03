@@ -7,9 +7,13 @@
   --button-color: #3882f6;
 }
 
-body {
-  margin: 0;
+* {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+
+body {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -36,9 +40,6 @@ button {
   font-size: 16px;
   font-weight: 700;
 }
-/*div {
-  border: 1px solid red;
-}*/
 
 /* Header Section */
 
